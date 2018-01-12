@@ -6,7 +6,6 @@ print('Введите гражданство игрока (три символа
 coutry = input()
 print('Введите позицию игрока (Carry/Mid/Offlane/Semi-Sup/Sup')
 pos = input()
-
 print('Generation...')
 
 f = open(nick + '.plr', 'w')

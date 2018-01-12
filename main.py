@@ -1,11 +1,10 @@
-from scripts import sim_core
-import time
-# from PyQt5 import QtWidgets
-import sys
-# Импортируем наш интерфейс из файла
+import PyQt5
+import os
+from PyQt5 import QtWidgets
 from forms import test
-
+import sys
 class MyWin(QtWidgets.QMainWindow):
+
     def __init__(self, parent=None):
         QtWidgets.QWidget.__init__(self, parent)
         self.ui = Ui_MainWindow()
