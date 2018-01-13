@@ -1,1 +1,1 @@
-pyuic5 main(test).ui -o main(test).py
+pyuic5 main(test).ui -o test.py

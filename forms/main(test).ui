@@ -24,52 +24,129 @@
      </rect>
     </property>
    </widget>
-   <widget class="QListView" name="Team1">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>120</y>
-      <width>256</width>
-      <height>192</height>
+      <x>10</x>
+      <y>100</y>
+      <width>274</width>
+      <height>450</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <family>Raavi</family>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
+    <property name="statusTip">
+     <string/>
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
-    <property name="selectionRectVisible">
+    <property name="title">
+     <string>Выбор команд:</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="2">
+      <widget class="QListWidget" name="Team1_listWidget"/>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QListWidget" name="Team2_listWidget"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="scan">
+       <property name="text">
+        <string>Сканировать</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="registr">
+       <property name="text">
+        <string>Зарегистрировать</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="team1_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>120</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="readOnly">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QListView" name="Team2">
+   <widget class="QLineEdit" name="team2_lineEdit">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>320</y>
-      <width>256</width>
-      <height>192</height>
+      <x>640</x>
+      <y>120</y>
+      <width>151</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Raavi</family>
       <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
+      <underline>true</underline>
      </font>
     </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
-    <property name="selectionRectVisible">
+    <property name="autoFillBackground">
      <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>
