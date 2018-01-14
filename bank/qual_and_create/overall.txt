@@ -7,3 +7,4 @@ Sattelite  - 54,46
 Trof - 45,6
 Wolfs - 53,8
 BE - 65,3
+Fight - 42,3

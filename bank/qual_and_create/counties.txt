@@ -1,6 +1,6 @@
 RUS: 12
-SWE: 5
+SWE: 8
 USA: 7
-DEN: 5
+DEN: 7
 BRA: 7
 CHI: 10
