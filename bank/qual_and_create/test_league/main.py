@@ -23,6 +23,8 @@ class MyWin(QtWidgets.QMainWindow):
 
         self.ui.registr.clicked.connect(self.set_first_team)
 
+        self.ui.players_init.clicked.connect(initialize_players)
+
     def scanning(self):
 
         self.ui.Team1_listWidget.clear()
@@ -79,6 +81,100 @@ class UI_Dialog(QtWidgets.QMessageBox):
         msg.setText(self, message)
         msg.setStandardButtons(self, QtWidgets.QMessageBox.Ok)
         msg.exec_(self)
+
+class Player():
+    def __init__(self):
+        self.alive = True
+        self.farm = 0
+        self.fight = 0
+        self.teamwork = 0
+        self.kills = 0
+        self.deaths = 0
+        self.assists = 0
+        self.deathtimer = 0
+        self.position = ''
+        self.name = ''
+
+
+def initialize_players():
+    appPath = os.path.dirname(os.path.realpath(__file__))
+    print(appPath)
+
+    team_1_name = myapp.ui.team1_lineEdit.text()
+    team_2_name = myapp.ui.team2_lineEdit.text()
+
+    team_1_path = appPath + '\\' + team_1_name
+    team_2_path = appPath + "\\" + team_2_name
+
+    print(team_1_path)
+    print(team_2_path)
+
+    team_1_pl_list = os.listdir(team_1_path)
+    team_2_pl_list = os.listdir(team_2_path)
+
+    print(team_1_pl_list)
+    print(team_2_pl_list)
+
+    # Генерация первой команды #
+
+    team_1 = {}
+
+    for player_name in team_1_pl_list:
+        p = Player()
+        player_name = player_name.split('.')[0]
+
+        # Открытие файла #
+
+        f = open(team_1_path + '\\' + player_name + '.plr')
+        pl_info = f.readlines()
+        f.close()
+        print(player_name + ' __info:' + str(pl_info))
+
+        p.name = player_name
+        p.farm = int(pl_info[2].split(' ')[1])
+        p.fight = int(pl_info[3].split(' ')[1])
+        p.teamwork = int(pl_info[4].split(' ')[1])
+        p.position = pl_info[5].split(' ')[1]
+        print(p.farm, p.fight, p.teamwork, p.position)
+
+        team_1[player_name] = p
+
+    print(team_1)
+
+    # Генерация второй команды #
+
+    team_2 = {}
+
+    for player_name in team_2_pl_list:
+        p = Player()
+        player_name = player_name.split('.')[0]
+
+        # Открытие файла #
+
+        f = open(team_2_path + '\\' + player_name + '.plr')
+        pl_info = f.readlines()
+        f.close()
+        print(player_name + ' __info:' + str(pl_info))
+
+        p.name = player_name
+        p.farm = int(pl_info[2].split(' ')[1])
+        p.fight = int(pl_info[3].split(' ')[1])
+        p.teamwork = int(pl_info[4].split(' ')[1])
+        p.position = pl_info[5].split(' ')[1]
+        print(p.farm, p.fight, p.teamwork, p.position)
+
+        team_2[player_name] = p
+
+
+    print(team_2)
+
+    return [team_1, team_2]
+
+
+
+
+
+
 
 
 if __name__=="__main__":
