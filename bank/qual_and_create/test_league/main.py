@@ -1,4 +1,4 @@
-import os
+import os, time, random
 from PyQt5 import QtWidgets, QtGui
 from forms import test
 import sys
@@ -36,8 +36,8 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Team1_listWidget.addItems(dir_list)
         self.ui.Team2_listWidget.addItems(dir_list)
 
-        msgbox = UI_Dialog()
-        msgbox.show_msg_box('Сканированно!', 'SCAN')
+        #msgbox = UI_Dialog()
+        #msgbox.show_msg_box('Сканированно!', 'SCAN')
 
 
     # Регистрация команд #
@@ -94,7 +94,7 @@ class Player():
         self.deathtimer = 0
         self.position = ''
         self.name = ''
-
+        self.gold = 0
 
 def initialize_players():
     appPath = os.path.dirname(os.path.realpath(__file__))
@@ -168,12 +168,62 @@ def initialize_players():
 
     print(team_2)
 
-    return [team_1, team_2]
+    a = [team_1, team_2]
 
+    do_game(a)
 
+def do_game(teams):
+    team_1 = teams[0]
+    team_2 = teams[1]
 
+    print(team_1.keys())
+    print(list(team_1.keys())[0])
 
+    myapp.ui.t1_pl1.setText(list(team_1.keys())[0])
+    myapp.ui.t1_pl2.setText(list(team_1.keys())[1])
+    myapp.ui.t1_pl3.setText(list(team_1.keys())[2])
+    myapp.ui.t1_pl4.setText(list(team_1.keys())[3])
+    myapp.ui.t1_pl5.setText(list(team_1.keys())[4])
 
+    myapp.ui.t2_pl1.setText(list(team_2.keys())[0])
+    myapp.ui.t2_pl2.setText(list(team_2.keys())[1])
+    myapp.ui.t2_pl3.setText(list(team_2.keys())[2])
+    myapp.ui.t2_pl4.setText(list(team_2.keys())[3])
+    myapp.ui.t2_pl5.setText(list(team_2.keys())[4])
+
+    clock = 0
+    sec = 0
+    game = True
+
+    def event():
+        events = ['farm', 'fight']
+        i_n = random.randint(0, 100)
+        ev = ''
+        if i_n <= 2:
+            ev = 'fight'
+        else:
+            ev = 'farm'
+        return ev
+
+    while sec < 10:
+        ev = event()
+        print(ev)
+        print(sec)
+        sec += 1
+        time.sleep(0.25)
+
+        if ev == 'farm':
+            for player in list(team_1.keys()):
+                print(team_1[player].gold)
+                team_1[player].gold += ((team_1[player].farm * 0.1) + random.randint(0, 5))
+                print(player + ': ' + str(team_1[player].gold))
+
+            print('SECOND TEAM::::::')
+
+            for player in list(team_2.keys()):
+                print(team_2[player].gold)
+                team_2[player].gold += ((team_2[player].farm * 0.1) + random.randint(0, 5))
+                print(player + ': ' + str(team_2[player].gold))
 
 
 
