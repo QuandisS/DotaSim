@@ -191,6 +191,7 @@ def do_game(teams):
     myapp.ui.t2_pl4.setText(list(team_2.keys())[3])
     myapp.ui.t2_pl5.setText(list(team_2.keys())[4])
 
+
     clock = 0
     sec = 0
     game = True
@@ -204,6 +205,11 @@ def do_game(teams):
         else:
             ev = 'farm'
         return ev
+
+
+
+
+
 
     while sec < 10:
         ev = event()
@@ -224,6 +230,12 @@ def do_game(teams):
                 print(team_2[player].gold)
                 team_2[player].gold += ((team_2[player].farm * 0.1) + random.randint(0, 5))
                 print(player + ': ' + str(team_2[player].gold))
+
+            #set gold
+
+            #myapp.ui.gold_1.setText(team_1[myapp.ui.t1_pl1.text()].gold)
+
+
 
 
 

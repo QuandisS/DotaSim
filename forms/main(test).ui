@@ -162,9 +162,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>290</x>
       <y>180</y>
-      <width>153</width>
+      <width>231</width>
       <height>157</height>
      </rect>
     </property>
@@ -172,38 +172,156 @@
      <string>Игроки:</string>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
-     <item row="0" column="0">
-      <widget class="QLineEdit" name="t1_pl1">
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="t1_pl5">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="t1_pl3">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="t1_pl4">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="t1_pl1">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="t1_pl2">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="gold_1">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QLineEdit" name="t1_pl2">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_2">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QLineEdit" name="t1_pl3">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_3">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QLineEdit" name="t1_pl4">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_4">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QLineEdit" name="t1_pl5">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_5">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
@@ -212,9 +330,9 @@
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
-      <x>640</x>
+      <x>590</x>
       <y>180</y>
-      <width>153</width>
+      <width>231</width>
       <height>157</height>
      </rect>
     </property>
@@ -222,38 +340,153 @@
      <string>Игроки:</string>
     </property>
     <layout class="QGridLayout" name="gridLayout_3">
-     <item row="0" column="0">
+     <item row="0" column="1">
       <widget class="QLineEdit" name="t2_pl1">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="t2_pl2">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="t2_pl5">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="t2_pl4">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="t2_pl3">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>9</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="gold_6">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QLineEdit" name="t2_pl2">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_7">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QLineEdit" name="t2_pl3">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_8">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QLineEdit" name="t2_pl4">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_9">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QLineEdit" name="t2_pl5">
-       <property name="readOnly">
-        <bool>true</bool>
+      <widget class="QLabel" name="gold_10">
+       <property name="font">
+        <font>
+         <family>Kartika</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
        </property>
       </widget>
      </item>
@@ -298,7 +531,7 @@
      </font>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>0000</string>
     </property>
    </widget>
   </widget>
@@ -315,15 +548,33 @@
     <property name="title">
      <string>Settings</string>
     </property>
+    <widget class="QMenu" name="menuBase_Health">
+     <property name="title">
+      <string>Base Health</string>
+     </property>
+     <addaction name="action30_000"/>
+     <addaction name="action20_000"/>
+     <addaction name="action10_000"/>
+    </widget>
     <addaction name="separator"/>
-    <addaction name="actionBase_Health"/>
+    <addaction name="menuBase_Health"/>
    </widget>
    <addaction name="menuSettings"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionBase_Health">
+  <action name="action30_000">
    <property name="text">
-    <string>Base Health</string>
+    <string>30 000</string>
+   </property>
+  </action>
+  <action name="action20_000">
+   <property name="text">
+    <string>20 000</string>
+   </property>
+  </action>
+  <action name="action10_000">
+   <property name="text">
+    <string>10 000</string>
    </property>
   </action>
  </widget>
