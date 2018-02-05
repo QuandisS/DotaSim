@@ -151,7 +151,6 @@ class MyWin(QtWidgets.QMainWindow):
 
 
 
-
 class UI_Dialog(QtWidgets.QMessageBox):
     def __init__(self):
         super().__init__()
@@ -219,9 +218,9 @@ def do_game(teams):
 
     def event():
         events = ['farm', 'fight']
-        i_n = random.randint(0, 100)
+        i_n = random.randint(0, 200)
         ev = ''
-        if i_n <= 2:
+        if i_n <= 1:
             ev = 'fight'
         else:
             ev = 'farm'
@@ -230,7 +229,10 @@ def do_game(teams):
     team1_net = 0
     team2_net = 0
 
-    while sec < 60:
+    team1_hp = 20000
+    team2_hp = 20000
+
+    while team1_hp > 0 and team2_hp > 0:
 
 
 
@@ -238,24 +240,24 @@ def do_game(teams):
         print(ev)
         print(sec)
         sec += 1
-        time.sleep(0.1)
+        time.sleep(0.01)
         myapp.ui.Time.display((sec//60))
 
         if ev == 'farm':
             for player in list(team_1.keys()):
                 print(team_1[player].gold)
-                prirost = ((team_1[player].farm * 0.2) + random.uniform(0, 1))
+                prirost = ((team_1[player].farm * 0.03) + random.uniform(0, 5))
                 team_1[player].gold += prirost
-                team1_net += prirost
+                #team1_net += prirost
                 print(player + ': ' + str(team_1[player].gold))
 
             print('SECOND TEAM::::::')
 
             for player in list(team_2.keys()):
                 print(team_2[player].gold)
-                prirost = ((team_2[player].farm * 0.2) + random.uniform(0, 1))
+                prirost = ((team_2[player].farm * 0.03) + random.uniform(0, 5))
                 team_2[player].gold += prirost
-                team2_net += prirost
+                #team2_net += prirost
                 print(player + ': ' + str(team_2[player].gold))
 
             #set gold
@@ -273,6 +275,145 @@ def do_game(teams):
             myapp.ui.gold_10.setText(str(int(team_2[myapp.ui.t2_pl5.text()].gold)))
 
             myapp.ui.net_worth.setText(str(int(team1_net-team2_net)))
+
+        if ev == 'fight':
+            t1f = {}
+            t2f = {}
+
+            for player in list(team_1.keys()):
+                if team_1[player].teamwork >= random.randint(0, 102):
+                    a = {player: team_1[player]}
+                    t1f.update(a)
+
+            for player in list(team_2.keys()):
+                if team_2[player].teamwork >= random.randint(0, 102):
+                    a = {player: team_2[player]}
+                    t2f.update(a)
+
+            print('+++++++++++++++++++++++')
+            print('++++++++FIGHT++++++++++')
+            print('+++++++++++++++++++++++')
+            print('Team1', t1f)
+            print('Team2', t2f)
+
+            if len(t1f) == 0 or len(t2f) == 0:
+                print('There are no players!')
+                if len(t1f) == 0:
+                    team1_hp -= random.randint(0,100)
+                if len(t2f) == 0:
+                    team2_hp -= random.randint(0,100)
+
+            else:
+
+                #выяснение эффективности команды#
+
+                t1_sup_ef = 0
+                t2_sup_ef = 0
+
+                for player in t1f.keys():
+                    if (t1f[player].position == 'Sup') or (t1f[player].position == 'Semi-Sup'):
+                        print(player, 'is sup!')
+                        t1_sup_ef += t1f[player].fight
+                    else:
+                        pass
+                for player in t2f.keys():
+                    if (t2f[player].position == 'Sup') or (t2f[player].position == 'Semi-Sup'):
+                        print(player, 'is sup!')
+                        t2_sup_ef += t2f[player].fight
+                    else:
+                        pass
+
+                print('t1sup:', t1_sup_ef)
+                print('t2sup:', t2_sup_ef)
+
+
+                while (len(t1f) != 0) and (len(t2f) != 0):
+
+                    pick_1 = random.randint(1, len(t1f))
+                    pick_2 = random.randint(1, len(t2f))
+                    print('t1fkeys', t1f.keys())
+                    print('t2fkeys', t2f.keys())
+                    t1_list = list(t1f.keys())
+                    t2_list = list(t2f.keys())
+                    print('t1list:', t1_list)
+                    print('t2list:', t2_list)
+                    t1_player = t1f[t1_list[(pick_1-1)]]
+                    print(t1_player)
+                    t2_player = t2f[t2_list[(pick_2-1)]]
+                    print(t2_player)
+
+                    p1_killing = t1_player.fight * 0.5 + t1_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t1_player.gold * 0.01
+                    p2_killing = t2_player.fight * 0.5 + t2_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t2_player.gold * 0.01
+
+                    print(t1_player.name,':', p1_killing)
+                    print(t2_player.name, ':', p2_killing)
+
+                    if p1_killing > p2_killing:
+                        t2f.pop(t2_player.name)
+                        t2_player.deaths += 1
+                        print(t1_player.name, 'killed', t2_player.name)
+                        t1_player.gold += random.randint(100, 700)
+                        t1_player.kills += 1
+                        t1_player.assists -= 1
+                        for player in t1f.keys():
+                            t1f[player].assists += 1
+
+                    else:
+                        t1f.pop(t1_player.name)
+                        t1_player.deaths += 1
+                        print(t2_player.name, 'killed', t1_player.name)
+                        t2_player.gold += random.randint(100, 700)
+                        t2_player.kills += 1
+                        t2_player.assists -= 1
+                        for player in t2f.keys():
+                            t2f[player].assists += 1
+
+                if len(t1f) == 0:
+                    team1_hp -= random.randint(90, 1300) * len(t2f)
+                if len(t2f) == 0:
+                    team2_hp -= random.randint(90, 1300) * len(t1f)
+
+        team1_net = int(myapp.ui.gold_1.text()) + int(myapp.ui.gold_2.text()) + int(myapp.ui.gold_3.text()) + int(myapp.ui.gold_4.text()) + int(myapp.ui.gold_5.text())
+        team2_net = int(myapp.ui.gold_6.text()) + int(myapp.ui.gold_7.text()) + int(myapp.ui.gold_8.text()) + int(myapp.ui.gold_9.text()) + int(myapp.ui.gold_10.text())
+
+        net_worth = team1_net - team2_net
+
+        myapp.ui.net_worth.setText(str(int(net_worth)))
+
+        t1_hp_pr = int((team1_hp / 20000)*100)
+        t2_hp_pr = int((team2_hp / 20000)*100)
+
+        print('++++++HEALTH+++++')
+        print(t1_hp_pr)
+        print(t2_hp_pr)
+
+        #myapp.ui.t1_hp.setProperty("value", 1)
+        #myapp.ui.t2_hp.setProperty("value", 1)
+
+        myapp.ui.team1_hp.setText(str(t1_hp_pr)+'%')
+        myapp.ui.team2_hp.setText(str(t2_hp_pr) + '%')
+
+
+    for player in team_1:
+        print('---')
+        print(team_1[player].name)
+        print('kills:', team_1[player].kills)
+        print('assists:', team_1[player].assists)
+        print('deaths:', team_1[player].deaths)
+
+    print('-----team2----')
+
+    for player in team_2:
+        print('---')
+        print(team_2[player].name)
+        print('kills:', team_2[player].kills)
+        print('assists:', team_2[player].assists)
+        print('deaths:', team_2[player].deaths)
+
+
+
+
+
 
 
 
