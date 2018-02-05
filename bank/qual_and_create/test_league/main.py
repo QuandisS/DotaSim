@@ -2,6 +2,9 @@ import os, time, random
 from PyQt5 import QtWidgets, QtGui
 from forms import test
 import sys
+from PyQt5.QtCore import QThread
+
+
 class MyWin(QtWidgets.QMainWindow):
 
     def __init__(self, parent=None):
@@ -23,7 +26,7 @@ class MyWin(QtWidgets.QMainWindow):
 
         self.ui.registr.clicked.connect(self.set_first_team)
 
-        self.ui.players_init.clicked.connect(initialize_players)
+        self.ui.players_init.clicked.connect(self.initialize_players)
 
     def scanning(self):
 
@@ -68,6 +71,85 @@ class MyWin(QtWidgets.QMainWindow):
         else:
             self.ui.team2_lineEdit.setText(second_team)
 
+    def initialize_players(self):
+        appPath = os.path.dirname(os.path.realpath(__file__))
+        print(appPath)
+
+        team_1_name = myapp.ui.team1_lineEdit.text()
+        team_2_name = myapp.ui.team2_lineEdit.text()
+
+        team_1_path = appPath + '\\' + team_1_name
+        team_2_path = appPath + "\\" + team_2_name
+
+        print(team_1_path)
+        print(team_2_path)
+
+        team_1_pl_list = os.listdir(team_1_path)
+        team_2_pl_list = os.listdir(team_2_path)
+
+        print(team_1_pl_list)
+        print(team_2_pl_list)
+
+        # Генерация первой команды #
+
+        team_1 = {}
+
+        for player_name in team_1_pl_list:
+            p = Player()
+            player_name = player_name.split('.')[0]
+
+            # Открытие файла #
+
+            f = open(team_1_path + '\\' + player_name + '.plr')
+            pl_info = f.readlines()
+            f.close()
+            print(player_name + ' __info:' + str(pl_info))
+
+            p.name = player_name
+            p.farm = int(pl_info[2].split(' ')[1])
+            p.fight = int(pl_info[3].split(' ')[1])
+            p.teamwork = int(pl_info[4].split(' ')[1])
+            p.position = pl_info[5].split(' ')[1]
+            print(p.farm, p.fight, p.teamwork, p.position)
+
+            team_1[player_name] = p
+
+        print(team_1)
+
+        # Генерация второй команды #
+
+        team_2 = {}
+
+        for player_name in team_2_pl_list:
+            p = Player()
+            player_name = player_name.split('.')[0]
+
+            # Открытие файла #
+
+            f = open(team_2_path + '\\' + player_name + '.plr')
+            pl_info = f.readlines()
+            f.close()
+            print(player_name + ' __info:' + str(pl_info))
+
+            p.name = player_name
+            p.farm = int(pl_info[2].split(' ')[1])
+            p.fight = int(pl_info[3].split(' ')[1])
+            p.teamwork = int(pl_info[4].split(' ')[1])
+            p.position = pl_info[5].split(' ')[1]
+            print(p.farm, p.fight, p.teamwork, p.position)
+
+            team_2[player_name] = p
+
+        print(team_2)
+
+        a = [team_1, team_2]
+
+        # do_game(a)
+
+        self.game = DoGame(a)
+        self.game.start()
+
+
 
 
 class UI_Dialog(QtWidgets.QMessageBox):
@@ -96,81 +178,20 @@ class Player():
         self.name = ''
         self.gold = 0
 
-def initialize_players():
-    appPath = os.path.dirname(os.path.realpath(__file__))
-    print(appPath)
-
-    team_1_name = myapp.ui.team1_lineEdit.text()
-    team_2_name = myapp.ui.team2_lineEdit.text()
-
-    team_1_path = appPath + '\\' + team_1_name
-    team_2_path = appPath + "\\" + team_2_name
-
-    print(team_1_path)
-    print(team_2_path)
-
-    team_1_pl_list = os.listdir(team_1_path)
-    team_2_pl_list = os.listdir(team_2_path)
-
-    print(team_1_pl_list)
-    print(team_2_pl_list)
-
-    # Генерация первой команды #
-
-    team_1 = {}
-
-    for player_name in team_1_pl_list:
-        p = Player()
-        player_name = player_name.split('.')[0]
-
-        # Открытие файла #
-
-        f = open(team_1_path + '\\' + player_name + '.plr')
-        pl_info = f.readlines()
-        f.close()
-        print(player_name + ' __info:' + str(pl_info))
-
-        p.name = player_name
-        p.farm = int(pl_info[2].split(' ')[1])
-        p.fight = int(pl_info[3].split(' ')[1])
-        p.teamwork = int(pl_info[4].split(' ')[1])
-        p.position = pl_info[5].split(' ')[1]
-        print(p.farm, p.fight, p.teamwork, p.position)
-
-        team_1[player_name] = p
-
-    print(team_1)
-
-    # Генерация второй команды #
-
-    team_2 = {}
-
-    for player_name in team_2_pl_list:
-        p = Player()
-        player_name = player_name.split('.')[0]
-
-        # Открытие файла #
-
-        f = open(team_2_path + '\\' + player_name + '.plr')
-        pl_info = f.readlines()
-        f.close()
-        print(player_name + ' __info:' + str(pl_info))
-
-        p.name = player_name
-        p.farm = int(pl_info[2].split(' ')[1])
-        p.fight = int(pl_info[3].split(' ')[1])
-        p.teamwork = int(pl_info[4].split(' ')[1])
-        p.position = pl_info[5].split(' ')[1]
-        print(p.farm, p.fight, p.teamwork, p.position)
-
-        team_2[player_name] = p
 
 
-    print(team_2)
+class DoGame(QThread):
 
-    a = [team_1, team_2]
+    def __init__(self, teams):
+        QThread.__init__(self)
+        DoGame.team = teams
 
-    do_game(a)
+    def __del__(self):
+        self.wait()
+
+    def run(self):
+
+        do_game(self.team)
 
 def do_game(teams):
     team_1 = teams[0]
@@ -207,10 +228,6 @@ def do_game(teams):
         return ev
 
 
-
-
-
-
     while sec < 10:
         ev = event()
         print(ev)
@@ -234,7 +251,6 @@ def do_game(teams):
             #set gold
 
             #myapp.ui.gold_1.setText(team_1[myapp.ui.t1_pl1.text()].gold)
-
 
 
 
