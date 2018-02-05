@@ -227,31 +227,52 @@ def do_game(teams):
             ev = 'farm'
         return ev
 
+    team1_net = 0
+    team2_net = 0
 
-    while sec < 10:
+    while sec < 60:
+
+
+
         ev = event()
         print(ev)
         print(sec)
         sec += 1
-        time.sleep(0.25)
+        time.sleep(0.1)
+        myapp.ui.Time.display((sec//60))
 
         if ev == 'farm':
             for player in list(team_1.keys()):
                 print(team_1[player].gold)
-                team_1[player].gold += ((team_1[player].farm * 0.1) + random.randint(0, 5))
+                prirost = ((team_1[player].farm * 0.2) + random.uniform(0, 1))
+                team_1[player].gold += prirost
+                team1_net += prirost
                 print(player + ': ' + str(team_1[player].gold))
 
             print('SECOND TEAM::::::')
 
             for player in list(team_2.keys()):
                 print(team_2[player].gold)
-                team_2[player].gold += ((team_2[player].farm * 0.1) + random.randint(0, 5))
+                prirost = ((team_2[player].farm * 0.2) + random.uniform(0, 1))
+                team_2[player].gold += prirost
+                team2_net += prirost
                 print(player + ': ' + str(team_2[player].gold))
 
             #set gold
 
-            #myapp.ui.gold_1.setText(team_1[myapp.ui.t1_pl1.text()].gold)
+            myapp.ui.gold_1.setText(str(int(team_1[myapp.ui.t1_pl1.text()].gold)))
+            myapp.ui.gold_2.setText(str(int(team_1[myapp.ui.t1_pl2.text()].gold)))
+            myapp.ui.gold_3.setText(str(int(team_1[myapp.ui.t1_pl3.text()].gold)))
+            myapp.ui.gold_4.setText(str(int(team_1[myapp.ui.t1_pl4.text()].gold)))
+            myapp.ui.gold_5.setText(str(int(team_1[myapp.ui.t1_pl5.text()].gold)))
 
+            myapp.ui.gold_6.setText(str(int(team_2[myapp.ui.t2_pl1.text()].gold)))
+            myapp.ui.gold_7.setText(str(int(team_2[myapp.ui.t2_pl2.text()].gold)))
+            myapp.ui.gold_8.setText(str(int(team_2[myapp.ui.t2_pl3.text()].gold)))
+            myapp.ui.gold_9.setText(str(int(team_2[myapp.ui.t2_pl4.text()].gold)))
+            myapp.ui.gold_10.setText(str(int(team_2[myapp.ui.t2_pl5.text()].gold)))
+
+            myapp.ui.net_worth.setText(str(int(team1_net-team2_net)))
 
 
 
