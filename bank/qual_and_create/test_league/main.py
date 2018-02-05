@@ -218,7 +218,7 @@ def do_game(teams):
 
     def event():
         events = ['farm', 'fight']
-        i_n = random.randint(0, 200)
+        i_n = random.randint(0, 210)
         ev = ''
         if i_n <= 1:
             ev = 'fight'
@@ -231,6 +231,9 @@ def do_game(teams):
 
     team1_hp = 20000
     team2_hp = 20000
+
+    t1_kills = 0
+    t2_kills = 0
 
     while team1_hp > 0 and team2_hp > 0:
 
@@ -246,7 +249,7 @@ def do_game(teams):
         if ev == 'farm':
             for player in list(team_1.keys()):
                 print(team_1[player].gold)
-                prirost = ((team_1[player].farm * 0.03) + random.uniform(0, 5))
+                prirost = ((team_1[player].farm * 0.03) + random.uniform(0, 5.5))
                 team_1[player].gold += prirost
                 #team1_net += prirost
                 print(player + ': ' + str(team_1[player].gold))
@@ -255,7 +258,7 @@ def do_game(teams):
 
             for player in list(team_2.keys()):
                 print(team_2[player].gold)
-                prirost = ((team_2[player].farm * 0.03) + random.uniform(0, 5))
+                prirost = ((team_2[player].farm * 0.03) + random.uniform(0, 5.5))
                 team_2[player].gold += prirost
                 #team2_net += prirost
                 print(player + ': ' + str(team_2[player].gold))
@@ -352,26 +355,28 @@ def do_game(teams):
                         t2f.pop(t2_player.name)
                         t2_player.deaths += 1
                         print(t1_player.name, 'killed', t2_player.name)
-                        t1_player.gold += random.randint(100, 700)
+                        t1_player.gold += random.randint(100, 750)
                         t1_player.kills += 1
                         t1_player.assists -= 1
                         for player in t1f.keys():
                             t1f[player].assists += 1
+                        t1_kills += 1
 
                     else:
                         t1f.pop(t1_player.name)
                         t1_player.deaths += 1
                         print(t2_player.name, 'killed', t1_player.name)
-                        t2_player.gold += random.randint(100, 700)
+                        t2_player.gold += random.randint(100, 750)
                         t2_player.kills += 1
                         t2_player.assists -= 1
                         for player in t2f.keys():
                             t2f[player].assists += 1
+                        t2_kills += 1
 
                 if len(t1f) == 0:
-                    team1_hp -= random.randint(90, 1300) * len(t2f)
+                    team1_hp -= random.randint(90, 1700) * len(t2f)
                 if len(t2f) == 0:
-                    team2_hp -= random.randint(90, 1300) * len(t1f)
+                    team2_hp -= random.randint(90, 1700) * len(t1f)
 
         team1_net = int(myapp.ui.gold_1.text()) + int(myapp.ui.gold_2.text()) + int(myapp.ui.gold_3.text()) + int(myapp.ui.gold_4.text()) + int(myapp.ui.gold_5.text())
         team2_net = int(myapp.ui.gold_6.text()) + int(myapp.ui.gold_7.text()) + int(myapp.ui.gold_8.text()) + int(myapp.ui.gold_9.text()) + int(myapp.ui.gold_10.text())
@@ -392,6 +397,15 @@ def do_game(teams):
 
         myapp.ui.team1_hp.setText(str(t1_hp_pr)+'%')
         myapp.ui.team2_hp.setText(str(t2_hp_pr) + '%')
+
+
+        myapp.ui.t1_kills.setText(str(t1_kills))
+        myapp.ui.t2_kills.setText(str(t2_kills))
+
+
+
+
+
 
 
     for player in team_1:
