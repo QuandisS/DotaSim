@@ -24,6 +24,9 @@ class MyWin(QtWidgets.QMainWindow):
         print(b)
         ###
 
+        self.ui.version.setText('V. 0.1.2')
+
+
         self.ui.registr.clicked.connect(self.set_first_team)
 
         self.ui.players_init.clicked.connect(self.initialize_players)
@@ -243,7 +246,7 @@ def do_game(teams):
         print(ev)
         print(sec)
         sec += 1
-        time.sleep(0.01)
+        time.sleep(0.001)
         myapp.ui.Time.display((sec//60))
 
         if ev == 'farm':
@@ -345,8 +348,8 @@ def do_game(teams):
                     t2_player = t2f[t2_list[(pick_2-1)]]
                     print(t2_player)
 
-                    p1_killing = t1_player.fight * 0.5 + t1_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t1_player.gold * 0.01
-                    p2_killing = t2_player.fight * 0.5 + t2_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t2_player.gold * 0.01
+                    p1_killing = t1_player.fight * 0.5 + t1_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t1_player.gold * 0.02
+                    p2_killing = t2_player.fight * 0.5 + t2_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t2_player.gold * 0.02
 
                     print(t1_player.name,':', p1_killing)
                     print(t2_player.name, ':', p2_killing)
@@ -423,13 +426,6 @@ def do_game(teams):
         print('kills:', team_2[player].kills)
         print('assists:', team_2[player].assists)
         print('deaths:', team_2[player].deaths)
-
-
-
-
-
-
-
 
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
