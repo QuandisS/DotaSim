@@ -1,9 +1,10 @@
-RUS: 12
-SWE: 9
+RUS: 22
+SWE: 14
 USA: 8
-DEN: 7
+DEN: 12
 BRA: 9
 CHI: 10
 GER: 7
 ENG: 9
-JAP: 5
+JAP: 10
+FIN: 5

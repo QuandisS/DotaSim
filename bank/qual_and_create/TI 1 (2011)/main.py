@@ -24,7 +24,7 @@ class MyWin(QtWidgets.QMainWindow):
         print(b)
         ###
 
-        self.ui.version.setText('V. 0.1.1')
+        self.ui.version.setText('V. 0.1.2')
 
 
         self.ui.registr.clicked.connect(self.set_first_team)
@@ -348,8 +348,8 @@ def do_game(teams):
                     t2_player = t2f[t2_list[(pick_2-1)]]
                     print(t2_player)
 
-                    p1_killing = t1_player.fight * 0.5 + t1_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t1_player.gold * 0.01
-                    p2_killing = t2_player.fight * 0.5 + t2_sup_ef * 0.1 + random.randint(0, 120) * 1.9 + t2_player.gold * 0.01
+                    p1_killing = t1_player.fight * 0.5 + t1_sup_ef * 0.2 + random.randint(0, 120) * 1.9 + t1_player.gold * 0.014
+                    p2_killing = t2_player.fight * 0.5 + t2_sup_ef * 0.2 + random.randint(0, 120) * 1.9 + t2_player.gold * 0.014
 
                     print(t1_player.name,':', p1_killing)
                     print(t2_player.name, ':', p2_killing)
