@@ -572,26 +572,6 @@
      <string>0000</string>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="team1_logo">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>100</y>
-      <width>161</width>
-      <height>101</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QGraphicsView" name="team2_logo">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>100</y>
-      <width>161</width>
-      <height>101</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
@@ -730,6 +710,32 @@
     </property>
     <property name="text">
      <string>Version</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="t1_logo_label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>100</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="t2_logo_label">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>90</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>

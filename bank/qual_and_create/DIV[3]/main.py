@@ -3,6 +3,7 @@ from PyQt5 import QtWidgets, QtGui
 from forms import test
 import sys
 from PyQt5.QtCore import QThread
+from PyQt5.QtGui import QPixmap
 
 
 class MyWin(QtWidgets.QMainWindow):
@@ -25,7 +26,6 @@ class MyWin(QtWidgets.QMainWindow):
         ###
 
         self.ui.version.setText('V. 0.1.2')
-
 
         self.ui.registr.clicked.connect(self.set_first_team)
 
@@ -98,24 +98,36 @@ class MyWin(QtWidgets.QMainWindow):
         team_1 = {}
 
         for player_name in team_1_pl_list:
-            p = Player()
-            player_name = player_name.split('.')[0]
+            if player_name.split('.')[1] == 'png':
 
-            # Открытие файла #
 
-            f = open(team_1_path + '\\' + player_name + '.plr')
-            pl_info = f.readlines()
-            f.close()
-            print(player_name + ' __info:' + str(pl_info))
+                print('logo_image_name=', player_name)
+                print('team_path=', team_1_path)
+                pixmap_path = team_1_path + '\\' + player_name
+                pixmap = QPixmap(pixmap_path)
+                print('pixmap_path=', pixmap_path)
+                self.ui.t1_logo_label.setPixmap(pixmap)
+                self.ui.t1_logo_label.show()
 
-            p.name = player_name
-            p.farm = int(pl_info[2].split(' ')[1])
-            p.fight = int(pl_info[3].split(' ')[1])
-            p.teamwork = int(pl_info[4].split(' ')[1])
-            p.position = pl_info[5].split(' ')[1]
-            print(p.farm, p.fight, p.teamwork, p.position)
+            else:
+                p = Player()
+                player_name = player_name.split('.')[0]
 
-            team_1[player_name] = p
+                # Открытие файла #
+
+                f = open(team_1_path + '\\' + player_name + '.plr')
+                pl_info = f.readlines()
+                f.close()
+                print(player_name + ' __info:' + str(pl_info))
+
+                p.name = player_name
+                p.farm = int(pl_info[2].split(' ')[1])
+                p.fight = int(pl_info[3].split(' ')[1])
+                p.teamwork = int(pl_info[4].split(' ')[1])
+                p.position = pl_info[5].split(' ')[1]
+                print(p.farm, p.fight, p.teamwork, p.position)
+
+                team_1[player_name] = p
 
         print(team_1)
 
@@ -124,24 +136,36 @@ class MyWin(QtWidgets.QMainWindow):
         team_2 = {}
 
         for player_name in team_2_pl_list:
-            p = Player()
-            player_name = player_name.split('.')[0]
+            if player_name.split('.')[1] == 'png':
 
-            # Открытие файла #
+                print('logo_image_name=', player_name)
+                print('team_path=', team_2_path)
+                pixmap_path = team_2_path + '\\' + player_name
+                pixmap = QPixmap(pixmap_path)
+                print('pixmap_path=', pixmap_path)
+                self.ui.t2_logo_label.setPixmap(pixmap)
+                self.ui.t2_logo_label.show()
 
-            f = open(team_2_path + '\\' + player_name + '.plr')
-            pl_info = f.readlines()
-            f.close()
-            print(player_name + ' __info:' + str(pl_info))
 
-            p.name = player_name
-            p.farm = int(pl_info[2].split(' ')[1])
-            p.fight = int(pl_info[3].split(' ')[1])
-            p.teamwork = int(pl_info[4].split(' ')[1])
-            p.position = pl_info[5].split(' ')[1]
-            print(p.farm, p.fight, p.teamwork, p.position)
+            else:
+                p = Player()
+                player_name = player_name.split('.')[0]
 
-            team_2[player_name] = p
+                # Открытие файла #
+
+                f = open(team_2_path + '\\' + player_name + '.plr')
+                pl_info = f.readlines()
+                f.close()
+                print(player_name + ' __info:' + str(pl_info))
+
+                p.name = player_name
+                p.farm = int(pl_info[2].split(' ')[1])
+                p.fight = int(pl_info[3].split(' ')[1])
+                p.teamwork = int(pl_info[4].split(' ')[1])
+                p.position = pl_info[5].split(' ')[1]
+                print(p.farm, p.fight, p.teamwork, p.position)
+
+                team_2[player_name] = p
 
         print(team_2)
 
