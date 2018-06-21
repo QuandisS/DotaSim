@@ -25,7 +25,7 @@ class MyWin(QtWidgets.QMainWindow):
         print(b)
         ###
 
-        self.ui.version.setText('V. 0.1.3b5')
+        self.ui.version.setText('V. 0.1.3b7')
 
         self.ui.registr.clicked.connect(self.set_first_team)
 
@@ -372,8 +372,8 @@ def do_game(teams):
                     t2_player = t2f[t2_list[(pick_2-1)]]
                     print(t2_player)
 
-                    p1_killing = t1_player.fight * 0.5 + t1_sup_ef * 0.21 + random.randint(0, 190) * 1.95 + t1_player.gold * 0.013
-                    p2_killing = t2_player.fight * 0.5 + t2_sup_ef * 0.21 + random.randint(0, 190) * 1.95 + t2_player.gold * 0.013
+                    p1_killing = t1_player.fight * 0.45 + t1_sup_ef * 0.22 + random.randint(0, 280) * 1.95 + t1_player.gold * 0.012
+                    p2_killing = t2_player.fight * 0.45 + t2_sup_ef * 0.22 + random.randint(0, 280) * 1.95 + t2_player.gold * 0.012
 
                     print(t1_player.name,':', p1_killing)
                     print(t2_player.name, ':', p2_killing)
@@ -401,9 +401,9 @@ def do_game(teams):
                         t2_kills += 1
 
                 if len(t1f) == 0:
-                    team1_hp -= random.randint(90, 1700) * len(t2f) * 0.82
+                    team1_hp -= random.randint(90, 1700) * len(t2f) * 0.7
                 if len(t2f) == 0:
-                    team2_hp -= random.randint(90, 1700) * len(t1f) * 0.82
+                    team2_hp -= random.randint(90, 1700) * len(t1f) * 0.7
 
         team1_net = int(myapp.ui.gold_1.text()) + int(myapp.ui.gold_2.text()) + int(myapp.ui.gold_3.text()) + int(myapp.ui.gold_4.text()) + int(myapp.ui.gold_5.text())
         team2_net = int(myapp.ui.gold_6.text()) + int(myapp.ui.gold_7.text()) + int(myapp.ui.gold_8.text()) + int(myapp.ui.gold_9.text()) + int(myapp.ui.gold_10.text())
