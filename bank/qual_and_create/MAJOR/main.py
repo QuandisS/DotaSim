@@ -25,7 +25,7 @@ class MyWin(QtWidgets.QMainWindow):
         print(b)
         ###
 
-        self.ui.version.setText('V. 0.1.3b7')
+        self.ui.version.setText('V. 0.1.3b8')
 
         self.ui.registr.clicked.connect(self.set_first_team)
 
@@ -276,7 +276,7 @@ def do_game(teams):
         if ev == 'farm':
             for player in list(team_1.keys()):
                 print(team_1[player].gold)
-                prirost = ((team_1[player].farm * 0.03) + random.uniform(0, 5.8))
+                prirost = ((team_1[player].farm * 0.04) + random.uniform(0, 5.9))
                 team_1[player].gold += prirost
                 #team1_net += prirost
                 print(player + ': ' + str(team_1[player].gold))
@@ -285,7 +285,7 @@ def do_game(teams):
 
             for player in list(team_2.keys()):
                 print(team_2[player].gold)
-                prirost = ((team_2[player].farm * 0.03) + random.uniform(0, 5.8))
+                prirost = ((team_2[player].farm * 0.04) + random.uniform(0, 5.9))
                 team_2[player].gold += prirost
                 #team2_net += prirost
                 print(player + ': ' + str(team_2[player].gold))
@@ -372,8 +372,8 @@ def do_game(teams):
                     t2_player = t2f[t2_list[(pick_2-1)]]
                     print(t2_player)
 
-                    p1_killing = t1_player.fight * 0.45 + t1_sup_ef * 0.22 + random.randint(0, 280) * 1.95 + t1_player.gold * 0.012
-                    p2_killing = t2_player.fight * 0.45 + t2_sup_ef * 0.22 + random.randint(0, 280) * 1.95 + t2_player.gold * 0.012
+                    p1_killing = t1_player.fight * 0.49 + t1_sup_ef * 0.22 + random.randint(0, 320) * 1.95 + t1_player.gold * 0.011
+                    p2_killing = t2_player.fight * 0.49 + t2_sup_ef * 0.22 + random.randint(0, 320) * 1.95 + t2_player.gold * 0.011
 
                     print(t1_player.name,':', p1_killing)
                     print(t2_player.name, ':', p2_killing)
@@ -382,7 +382,7 @@ def do_game(teams):
                         t2f.pop(t2_player.name)
                         t2_player.deaths += 1
                         print(t1_player.name, 'killed', t2_player.name)
-                        t1_player.gold += random.randint(100, 730)
+                        t1_player.gold += random.randint(100, 600)
                         t1_player.kills += 1
                         t1_player.assists -= 1
                         for player in t1f.keys():
@@ -393,7 +393,7 @@ def do_game(teams):
                         t1f.pop(t1_player.name)
                         t1_player.deaths += 1
                         print(t2_player.name, 'killed', t1_player.name)
-                        t2_player.gold += random.randint(100, 750)
+                        t2_player.gold += random.randint(100, 600)
                         t2_player.kills += 1
                         t2_player.assists -= 1
                         for player in t2f.keys():
