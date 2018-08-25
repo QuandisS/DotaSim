@@ -372,8 +372,8 @@ def do_game(teams):
                     t2_player = t2f[t2_list[(pick_2-1)]]
                     print(t2_player)
 
-                    p1_killing = t1_player.fight * 0.49 + t1_sup_ef * 0.22 + random.randint(0, 320) * 1.95 + t1_player.gold * 0.011
-                    p2_killing = t2_player.fight * 0.49 + t2_sup_ef * 0.22 + random.randint(0, 320) * 1.95 + t2_player.gold * 0.011
+                    p1_killing = t1_player.fight * 0.49 + t1_sup_ef * 0.22 + random.randint(0, 350) * 1.95 + t1_player.gold * 0.015
+                    p2_killing = t2_player.fight * 0.49 + t2_sup_ef * 0.22 + random.randint(0, 350) * 1.95 + t2_player.gold * 0.015
 
                     print(t1_player.name,':', p1_killing)
                     print(t2_player.name, ':', p2_killing)
@@ -382,7 +382,7 @@ def do_game(teams):
                         t2f.pop(t2_player.name)
                         t2_player.deaths += 1
                         print(t1_player.name, 'killed', t2_player.name)
-                        t1_player.gold += random.randint(100, 600)
+                        t1_player.gold += random.randint(100, 400)
                         t1_player.kills += 1
                         t1_player.assists -= 1
                         for player in t1f.keys():
@@ -393,7 +393,7 @@ def do_game(teams):
                         t1f.pop(t1_player.name)
                         t1_player.deaths += 1
                         print(t2_player.name, 'killed', t1_player.name)
-                        t2_player.gold += random.randint(100, 600)
+                        t2_player.gold += random.randint(100, 400)
                         t2_player.kills += 1
                         t2_player.assists -= 1
                         for player in t2f.keys():
@@ -401,9 +401,9 @@ def do_game(teams):
                         t2_kills += 1
 
                 if len(t1f) == 0:
-                    team1_hp -= random.randint(90, 1700) * len(t2f) * 0.7
+                    team1_hp -= random.randint(90, 1700) * len(t2f) * 0.6
                 if len(t2f) == 0:
-                    team2_hp -= random.randint(90, 1700) * len(t1f) * 0.7
+                    team2_hp -= random.randint(90, 1700) * len(t1f) * 0.6
 
         team1_net = int(myapp.ui.gold_1.text()) + int(myapp.ui.gold_2.text()) + int(myapp.ui.gold_3.text()) + int(myapp.ui.gold_4.text()) + int(myapp.ui.gold_5.text())
         team2_net = int(myapp.ui.gold_6.text()) + int(myapp.ui.gold_7.text()) + int(myapp.ui.gold_8.text()) + int(myapp.ui.gold_9.text()) + int(myapp.ui.gold_10.text())
