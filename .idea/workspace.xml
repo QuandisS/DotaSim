@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Breesenon.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/GIACHA.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Skiahar.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Voryderi.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Wheelynner.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Broshim.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/GodAKO.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Heavo.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Un()ttel.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Vianakilen.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Ademan.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/DY.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/JuliesiS.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Tainetana.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/XenoniaLA.plr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dotasim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dotasim.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +12,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +46,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,6 +75,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.player_creator">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.player_creator" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -199,13 +191,9 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.8114843" />
@@ -213,6 +201,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -242,15 +234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
           <caret line="374" column="128" selection-start-line="374" selection-start-column="128" selection-end-line="374" selection-end-column="128" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -345,6 +328,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reload/JaDoRiDiO.plr">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Desidyan.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
