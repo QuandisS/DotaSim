@@ -14,6 +14,8 @@ def scan_teams():
     dir_list = os.listdir(app_path)
     if 'upgrader.py' in dir_list:
         dir_list.remove('upgrader.py')
+    if 'main.py' in dir_list:
+        dir_list.remove('main.py')
     return dir_list
 
 def scan_player(path : str):

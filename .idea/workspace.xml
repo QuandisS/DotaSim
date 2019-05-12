@@ -2,9 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/GFELa.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Leeds City/Aun_C_And.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Fide_line.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/ArBren.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Broshim.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/GodAKO.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/PablON.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Vianakilen.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Russian_Bears/Rillias.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Sweaty Fruit/Hemand.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/upgrader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Ethalicen.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Isonder.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Llias.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Midanile.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/therimorel.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/offhandedly/(Allo)sius.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/upgrader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bad Warrior/Ethalicen.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bad Warrior/Isonder (c).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bad Warrior/Llias.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bad Warrior/Midanile.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bad Warrior/therimorel.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Dentrac.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Dentrac.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Freyndell.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Freyndell.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/GFELa (c).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/XaviD_.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/XaviD_.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Breesenon.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Breesenon.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Leeds City/Aun_C_And(c).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Fide_line (c).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Jamarabi.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Jamarabi.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Mission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/OG/Peoniq.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/OG/Peoniq.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Russian_Bears/AxykoN.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Russian_Bears/AxykoN.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Russian_Bears/Rillias (c).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Russian_Bears/Tizany.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Russian_Bears/Tizany.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Sweaty Fruit/Hemand(c).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Sweaty Fruit/de_Wan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Sweaty Fruit/de_Wan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/BE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/Zbiga_Lagi.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/Zbiga_Lagi.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Busters/JaDZiaEs)).plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Busters/JaDZiaEs)).plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/Mingo.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/Mingo.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/Zahanm.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/Zahanm.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/polsak.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/polsak.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Dignitas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Philto.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Philto.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Wisabe.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Wisabe.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Wrigen.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Wrigen.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EtalieN/Entalien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EtalieN/Italion.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EtalieN/Italion.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NaVi/westInEYAl.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NaVi/westInEYAl.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/ArBren.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Broshim.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/GodAKO.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/PablON.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Vianakilen.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Palass.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Palass.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Sattelite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Bringo.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Bringo.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Mingho.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Mingho.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/bigBAM.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/bigBAM.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/TARANQA!.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/TARANQA!.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Tainetana.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Tainetana.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Madness/Deeepakuu.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Madness/Deeepakuu.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WindAndRain/Desidyan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WindAndRain/Desidyan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WindAndRain/Fany.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WindAndRain/Fany.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/offhandedly/(Allo)sius (с).plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/offhandedly/offhandedly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/DAnich.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Ferdenand.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Italion.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Jitao.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Kennabel.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Iraitlube.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Omandia.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/TeralD!.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Wrena.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/upgrader.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/upgrader.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +92,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="121" column="6" lean-forward="true" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +111,9 @@
         <option value="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/upgrader.py" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/Freyndell.plr" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/XaviD_.plr" />
       </list>
     </option>
   </component>
@@ -59,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,34 +146,10 @@
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="TestUpgrade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="TestUpgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="EtalieN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="TestUpgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="Fnatic" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,6 +164,10 @@
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\NimbUS" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\ViCi" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\TestUpgrade" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,49 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.upgrader">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dotasim" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/DIV[2]" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dotasim" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/Major" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/Major/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.upgrader (2)">
     <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +224,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="upgrader (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dotasim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/DIV[1]" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/upgrader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upgrader (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dotasim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/DIV[2]" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/upgrader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="upgrader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.upgrader (2)" />
         <item itemvalue="Python.upgrader" />
+        <item itemvalue="Python.upgrader (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (4)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -266,19 +315,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557614729286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="players upgrader">
+      <created>1557690194053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557690194053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1227608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1227608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5406284" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9674973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,61 +346,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.50641024" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.8172867" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="season up + balance v10" />
-    <option name="LAST_COMMIT_MESSAGE" value="season up + balance v10" />
+    <MESSAGE value="players upgrader" />
+    <option name="LAST_COMMIT_MESSAGE" value="players upgrader" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Ademan.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/XenoniaLA.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Tainetana.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/JuliesiS.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/DY.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Broshim.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/GodAKO.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Heavo.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Un()ttel.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Vianakilen.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Breesenon.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/GIACHA.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Voryderi.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Wheelynner.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Gambit/Skiahar.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Poolings/AureNEW.plr">
       <provider selected="true" editor-type-id="text-editor" />
@@ -421,45 +428,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/DAnich.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/DAnich.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Ferdenand.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Jitao.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Kennabel.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Iraitlube.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Omandia.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Italion.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/TeralD!.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/upgrader.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Ferdenand.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Dentrac.plr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Jitao.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/Hiponyaba.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/GFELa (c).plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/Freyndell.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Leeds City/Sumandek{SONY}.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Leeds City/Aun_C_And.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/XaviD_.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Mission/Fide_line.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Sweaty Fruit/Hemand.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Gambit/Muvan.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Gambit/GIACHA.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/FaZe_2/GFELa.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/GFELa.plr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Kennabel.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/ArBren.plr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Iraitlube.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Vianakilen.plr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Omandia.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/upgrader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="336">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Italion.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Bad Warrior/Llias.plr">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/TeralD!.plr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="121" column="6" lean-forward="true" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        <state relative-caret-position="682">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/upgrader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
