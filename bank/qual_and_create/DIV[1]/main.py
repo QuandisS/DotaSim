@@ -43,7 +43,7 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.Team2_listWidget.addItems(dir_list)
 
         #msgbox = UI_Dialog()
-        #msgbox.show_msg_box('Сканированно!', 'SCAN')
+        #msgbox.show_msg_box('Сканировано!', 'SCAN')
 
 
     # Регистрация команд #

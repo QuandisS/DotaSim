@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/Zbiga_Lagi.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Busters/JaDZiaEs)).plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/Mingo.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Un()ttel.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Frick.plr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Palass.plr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/de_Wan.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Sweaty Fruit/GherlL.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Desidyan.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Fany.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Kyleeto.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Lenorenta.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/tAssIDO.plr" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/JaDZiaEs)).plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Busters/Zbiga_Lagi.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/Frick.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Vidad.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Heavo.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NimbUS/Un()ttel.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Mingo.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/PSGLGD/Bringo.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Poolings/nates.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/LycaaaaaN.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/papiruse.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/Yehudaaaa.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/Yuogardyan.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Wolfs/DraquE_.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Wolfs/Francy.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Wolfs/Je}vor{it.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Wolfs/Palass.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Wolfs/RustinE.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/offhandedly/FreynA.plr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/main.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,43 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="405" column="49" selection-start-line="405" selection-start-column="49" selection-end-line="405" selection-end-column="49" />
+            <state relative-caret-position="713">
+              <caret line="121" column="6" lean-forward="true" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,6 +44,8 @@
       <list>
         <option value="$PROJECT_DIR$/bank/qual_and_create/main.py" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" />
       </list>
     </option>
   </component>
@@ -107,7 +59,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,12 +82,29 @@
               <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="DIV[1]" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUpgrade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUpgrade" type="462c0819:PsiDirectoryNode" />
+              <item name="EtalieN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUpgrade" type="462c0819:PsiDirectoryNode" />
+              <item name="Fnatic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.upgrader">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="player_creator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="upgrader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,11 +225,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/player_creator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.upgrader" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.player_creator" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +259,14 @@
       <option name="presentableId" value="Default" />
       <updated>1553466377314</updated>
     </task>
+    <task id="LOCAL-00001" summary="season up + balance v10">
+      <created>1557614729286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557614729286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -302,15 +278,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.81040084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5406284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,6 +310,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="season up + balance v10" />
+    <option name="LAST_COMMIT_MESSAGE" value="season up + balance v10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Ademan.plr">
@@ -410,18 +390,10 @@
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/ArBren.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/PablON.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Major/main.py" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Major3/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Major3/main.py" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="351">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -431,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="540">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -441,10 +413,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="405" column="49" selection-start-line="405" selection-start-column="49" selection-end-line="405" selection-end-column="49" />
+        <state relative-caret-position="-1215">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/DAnich.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Ferdenand.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Jitao.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Kennabel.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Iraitlube.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/Omandia.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/EtalieN/Italion.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/TeralD!.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="121" column="6" lean-forward="true" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
