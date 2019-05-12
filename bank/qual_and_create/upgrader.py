@@ -121,4 +121,6 @@ def main():
         else:
             print(teams[i], pre_teams_ovr[i], '-->', post_teams_ovr[i], Fore.RED + "(" + str(dif) + ")"
                   + Style.RESET_ALL + '\n')
-main()
+
+if input("Are you sure?") == 'Y':
+    main()
