@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="season up">
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/peringham.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/peringham.plr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/ChoChi.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/ChoChi.plr" afterDir="false" />
-    </list>
+    <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +11,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/player_creator.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Breesenon.plr">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/GIACHA.plr">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Voryderi.plr">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Wheelynner.plr">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Fallen.plr">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,6 +90,7 @@
         <option value="$PROJECT_DIR$/bank/qual_and_create/National Cup/Serenity/bigBAM.plr" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/National Cup/Poolings/AbianN.plr" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/Fallen.plr" />
       </list>
     </option>
   </component>
@@ -116,6 +146,15 @@
               <item name="National Cup" type="462c0819:PsiDirectoryNode" />
               <item name="National Teams" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
+              <item name="National Cup" type="462c0819:PsiDirectoryNode" />
+              <item name="National Teams" type="462c0819:PsiDirectoryNode" />
+              <item name="KAZ(+1)" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.national">
+  <component name="RunManager" selected="Python.player_creator">
     <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,27 +216,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dotasim" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/Major" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/Major/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="national" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +229,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="player_creator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dotasim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/player_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.player_creator" />
         <item itemvalue="Python.national" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.upgrader (1)" />
         <item itemvalue="Python.upgrader (2)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561329289567</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="prepare for national cup">
+      <created>1566425121120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566425121120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -336,7 +382,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2751896" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27952328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,27 +421,10 @@
     <MESSAGE value="upgrade after m3" />
     <MESSAGE value="upgrader update (safety)" />
     <MESSAGE value="season up" />
-    <option name="LAST_COMMIT_MESSAGE" value="season up" />
+    <MESSAGE value="prepare for national cup" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare for national cup" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/CHI/JaDZiaEs)).plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/CHI/Yceeaaaaaaa!!@.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/DEN/Llias.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/DEN/LycaaaaaN.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/DEN/Missuaaaaa.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/DEN/RustinE.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/DEN/Zbiga_Lagi.plr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -559,10 +588,32 @@
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/player_creator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Breesenon.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/GIACHA.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Voryderi.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Wheelynner.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Fallen.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
