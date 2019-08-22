@@ -311,12 +311,12 @@ def do_game(teams):
             t2f = {}
 
             for player in list(team_1.keys()):
-                if team_1[player].teamwork >= random.randint(0, 100):
+                if team_1[player].teamwork >= random.randint(0, 110):
                     a = {player: team_1[player]}
                     t1f.update(a)
 
             for player in list(team_2.keys()):
-                if team_2[player].teamwork >= random.randint(0, 100):
+                if team_2[player].teamwork >= random.randint(0, 110):
                     a = {player: team_2[player]}
                     t2f.update(a)
 

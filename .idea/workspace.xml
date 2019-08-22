@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank/qual_and_create/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/main.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -14,38 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/team_creator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="375" column="128" selection-start-line="375" selection-start-column="128" selection-end-line="375" selection-end-column="128" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="247" column="33" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,13 +86,6 @@
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="DIV[3]" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -134,18 +99,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup\National Teams" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Free Agents" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Major" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup\National Teams\FIN(+1)" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup\National Teams\KAZ(+1)" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,19 +322,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566508632801</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new season patch">
+      <created>1566509394199</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566509394199</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37378114" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37378114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,12 +354,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9674973" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37378114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,7 +383,8 @@
     <MESSAGE value="nations cup roster" />
     <MESSAGE value="Season up + team creator" />
     <MESSAGE value="Season up (div3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Season up (div3)" />
+    <MESSAGE value="new season patch" />
+    <option name="LAST_COMMIT_MESSAGE" value="new season patch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,13 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/GIACHA.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Voryderi.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Wheelynner.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Fallen.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/FIN(+1)/Iraitlube.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/FIN(+1)/Re-Matter.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/FIN(+1)/TARANQA!.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/FIN(+1)/Yehudaaaa.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/FIN(+1)/Uwujwi.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Free Agents/Uwujwi.plr" />
@@ -440,23 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Rnarysonewel.plr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -595,6 +543,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="316" lean-forward="true" selection-start-line="316" selection-end-line="316" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Brantonyo.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Brinaliya.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Kasentineko.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Rionaharl.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Yannab.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Rnarysonewel.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -602,13 +590,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="375" column="128" selection-start-line="375" selection-start-column="128" selection-end-line="375" selection-end-column="128" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="243">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
