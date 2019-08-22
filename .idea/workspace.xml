@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/team_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/team_creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/main.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank/qual_and_create/team_creator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="524">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="375" column="128" selection-start-line="375" selection-start-column="128" selection-end-line="375" selection-end-column="128" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="247" column="33" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -37,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bank/qual_and_create/main.py" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/main.py" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/Fnatic/UPER0ditha.plr" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" />
@@ -57,6 +79,8 @@
         <option value="$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/Fallen.plr" />
         <option value="$PROJECT_DIR$/bank/qual_and_create/team_creator.py" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py" />
+        <option value="$PROJECT_DIR$/bank/qual_and_create/main.py" />
       </list>
     </option>
   </component>
@@ -90,6 +114,13 @@
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
+              <item name="DIV[3]" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,11 +134,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Free Agents" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Major" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\TestUpgrade" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]" />
@@ -129,8 +160,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.team_creator">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/DIV[3]" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.team_creator" />
         <item itemvalue="Python.upgrader" />
         <item itemvalue="Python.upgrader (1)" />
         <item itemvalue="Python.player_creator" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -319,11 +350,19 @@
       <option name="project" value="LOCAL" />
       <updated>1566507068808</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Season up (div3)">
+      <created>1566508632801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566508632801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,7 +411,8 @@
     <MESSAGE value="prepare for national cup" />
     <MESSAGE value="nations cup roster" />
     <MESSAGE value="Season up + team creator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Season up + team creator" />
+    <MESSAGE value="Season up (div3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Season up (div3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,20 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/info/CHI.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Serenity/Bringo.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Serenity/ChoChi.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Serenity/Mingho.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Serenity/Unicurie.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Serenity/bigBAM.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/PSGLGD/Quetanald.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Breesenon.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/GIACHA.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Voryderi.plr" />
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams/KAZ(+1)/Wheelynner.plr" />
@@ -544,10 +570,45 @@
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/xZeno/Vittannelle.plr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NRG/Josephemina.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EG/Ylvina.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EG/Xexingston.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EG/Quilley.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EG/Exavius.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EG/Enishonga.plr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/team_creator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="524">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="247" column="33" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="375" column="128" selection-start-line="375" selection-start-column="128" selection-end-line="375" selection-end-column="128" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
