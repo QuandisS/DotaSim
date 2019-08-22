@@ -22,8 +22,12 @@ team_name = input("Team name: ")
 os.mkdir(team_name)
 nicks = input("Nicks: ").split()
 nations = input("Nations: ").split()
+nations_count = [0]*len(nations)
 for i in range(5):
     j = random.randint(0, len(nations)-1)
     nation = nations[j]
+    nations_count[j] += 1
     write_player(team_name, nicks[i], positions[i], nation)
 print("Team overall: " + str(int(team_all_points/15)))
+for i in range(len(nations)):
+    print(nations[i] + ": " + str(nations_count[i]))
