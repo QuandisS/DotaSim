@@ -372,8 +372,8 @@ def do_game(teams):
                     t2_player = t2f[t2_list[(pick_2-1)]]
                     print(t2_player)
 
-                    p1_killing = t1_player.fight * 1 + t1_sup_ef * 0.25 + random.randint(100, 1000) * 2 + t1_player.gold * 0.08
-                    p2_killing = t2_player.fight * 1 + t2_sup_ef * 0.25 + random.randint(100, 1000) * 2 + t2_player.gold * 0.08
+                    p1_killing = t1_player.fight * 1 + t1_sup_ef * 0.25 + random.randint(100, 1000) * 2 + t1_player.gold * 0.02
+                    p2_killing = t2_player.fight * 1 + t2_sup_ef * 0.25 + random.randint(100, 1000) * 2 + t2_player.gold * 0.02
 
                     print(t1_player.name,':', p1_killing)
                     print(t2_player.name, ':', p2_killing)
