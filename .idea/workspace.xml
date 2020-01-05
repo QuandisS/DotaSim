@@ -2,8 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/TestUpgrade/upgrader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Bsolana.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Bsolana.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Mahador.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Mahador.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Nzoange.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Nzoange.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Rnarysonewel.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Rnarysonewel.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Dentrac.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/FaZe_2/Dentrac.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Breesenon.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Breesenon.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/GIACHA.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/GIACHA.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Muvan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Muvan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Wheelynner.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/Wheelynner.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/Eranka.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/Eranka.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/GherlL.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/GherlL.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/Yceeaaaaaaa!!@.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/Yceeaaaaaaa!!@.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/ZurenZasaaaa.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/LondonEie/ZurenZasaaaa.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Fide_line.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Fide_line.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Matias_neo.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Matias_neo.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/McKKalenalde.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/McKKalenalde.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Zand.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Mission/Zand.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/ArBren.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/ArBren.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Broshim.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Broshim.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/GodAKO.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/GodAKO.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Vianakilen.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/NimbUS/Vianakilen.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/ALini.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/ALini.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/Ennonyac.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/Ennonyac.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/Gomedyt.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/Gomedyt.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/JaDoRiDiO.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WE_Reload/JaDoRiDiO.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Fany.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Fany.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Kyleeto.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Kyleeto.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/DraquE_.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/DraquE_.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/Francy.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/Francy.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/Je}vor{it.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/Je}vor{it.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/LycaaaaaN.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/LycaaaaaN.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/RustinE.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Wolfs/RustinE.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/(Allo)sius.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/(Allo)sius.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/Shlo_)(eaa.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/Shlo_)(eaa.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/Vas_Dars.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/Vas_Dars.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/Yehudaaaa.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/offhandedly/Yehudaaaa.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Dennickyan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Dennickyan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Jewelley.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Jewelley.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Padmon.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Padmon.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Salayas.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Salayas.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Yanno.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Yanno.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/Zbiga_Lagi.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/Zbiga_Lagi.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/cathias.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/cathias.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Ethalicen.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Ethalicen.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Isonder.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Bad Warrior/Isonder.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/baedr.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/baedr.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/polsak.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Centaurus/polsak.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Kaisley.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Kaisley.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Un()ttel.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Dignitas/Un()ttel.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EG/Quilley.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EG/Quilley.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EG/Xexingston.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EG/Xexingston.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EG/Ylvina.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/EG/Ylvina.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Fnatic/UPER0ditha.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Fnatic/UPER0ditha.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Fnatic/Wrena.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Fnatic/Wrena.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/GG/Panyack.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/GG/Panyack.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/GG/Rodet.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/GG/Rodet.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Leeds City/JermoTHE.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Leeds City/JermoTHE.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Leeds City/Sumandek{SONY}.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Leeds City/Sumandek{SONY}.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Etteoa.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Etteoa.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Josephemina.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Josephemina.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Lorate.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Lorate.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Merylespirr.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Merylespirr.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/Katriii.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/Katriii.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/LolOnTablelot.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/LolOnTablelot.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/Peoniq.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/Peoniq.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/QuestB.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/QuestB.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/peringham.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/OG/peringham.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Clinahyded.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Clinahyded.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Frick.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Frick.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Lianevanton.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Lianevanton.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/onDILL.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/onDILL.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/AxykoN.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/AxykoN.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Januelandan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Januelandan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Kovittele.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Kovittele.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Pegeena.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Pegeena.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Ysonne.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Ysonne.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/JasonD_.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/JasonD_.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Tcomberg.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Tcomberg.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Xuenaaaaa.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Sattelite/Xuenaaaaa.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/ChoChi.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/ChoChi.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Mingho.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Mingho.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Unicurie.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/Unicurie.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/bigBAM.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Serenity/bigBAM.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/Namonteg.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/Namonteg.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/Re-Matter.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/Re-Matter.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/nates.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Titan/nates.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Elain.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Elain.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Gastockyan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Gastockyan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Huraym.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Huraym.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Mirach.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Tower/Mirach.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Madness/Deeepakuu.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Madness/Deeepakuu.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Madness/indiDrind.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Madness/indiDrind.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Demenaldore.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Demenaldore.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Ianas.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Ianas.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Jessidono.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Jessidono.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Quesdayshan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/WE_Reborn/Quesdayshan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/xZeno/Frento.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/xZeno/Frento.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/xZeno/Ietterr.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/xZeno/Ietterr.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/xZeno/Riolanza.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/xZeno/Riolanza.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/Ellia.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/Ellia.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/JaDZiaEs)).plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/JaDZiaEs)).plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/Missuaaaaa.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/Missuaaaaa.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/Quitanas.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Busters/Quitanas.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Brantonyo.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Brantonyo.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Brinaliya.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Brinaliya.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Kasentineko.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Emerald/Kasentineko.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EtalieN/Ferdenand.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EtalieN/Ferdenand.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EtalieN/Italion.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EtalieN/Italion.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Andiva.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Andiva.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Ondidiam.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Ondidiam.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Zabrid.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Zabrid.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Zenegr.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Generals/Zenegr.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Chervatusie.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Chervatusie.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Elemens.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Elemens.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Quillariol.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Quillariol.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Xonath.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Lions/Xonath.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/ESSAM.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/ESSAM.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/Stana.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/Stana.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/onjande.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/onjande.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/westInEYAl.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/NaVi/westInEYAl.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/PSGLGD/Hannarralp.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/PSGLGD/Hannarralp.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/PSGLGD/papiruse.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/PSGLGD/papiruse.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/AbianN.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/AbianN.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/AureNEW.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/AureNEW.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/Phika.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/Phika.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/nedan9tail.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Poolings/nedan9tail.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Secret/Llysandral.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Secret/Llysandral.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Secret/Quelenon.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Secret/Quelenon.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Secret/Siusandiem.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Secret/Siusandiem.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Sweaty Fruit/Ferda)9nic.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Sweaty Fruit/Ferda)9nic.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Sweaty Fruit/Rittoxan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Sweaty Fruit/Rittoxan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/TNC_Dragon/Bonieshakal.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/TNC_Dragon/Bonieshakal.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/TNC_Dragon/Enialonel.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/TNC_Dragon/Enialonel.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/GeferGiOale.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/GeferGiOale.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/Hohoho(.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/Hohoho(.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/MDer.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/MDer.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/yALERT0YANKY.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Liquid/yALERT0YANKY.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Bertyan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Bertyan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Edfordah.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Edfordah.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Kanikkoltan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Kanikkoltan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Tineastari.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Team Spirit/Tineastari.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Vertigo/Gunnedria.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Vertigo/Gunnedria.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/ViCi/Ademan.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/ViCi/Ademan.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/ViCi/DY.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/ViCi/DY.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/ViCi/XenoniaLA.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/ViCi/XenoniaLA.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Wasted/Jacey.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Wasted/Jacey.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Wasted/Oaquesteb.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Wasted/Oaquesteb.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Wasted/Rlairel.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[3]/Wasted/Rlairel.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/BEL/Namonteg.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/KAZ/Breesenon.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/KAZ/GIACHA.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/KAZ/Voryderi.plr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/KAZ/Wheelynner.plr" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +168,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/national.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/upgrader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -69,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,26 +247,10 @@
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="National Cup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DotaSim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DotaSim" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="qual_and_create" type="462c0819:PsiDirectoryNode" />
-              <item name="National Cup" type="462c0819:PsiDirectoryNode" />
-              <item name="National Teams 2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,19 +259,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup\National Teams 2" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\INT 2" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Major 5" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup\National Teams 2" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]\EtalieN" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]\Red Five" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]" />
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup\National Teams 2" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\National Cup" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\INT 2" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Major 5" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,8 +286,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.national">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.upgrader">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +295,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/INT 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/INT 2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.national" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.upgrader (2)" />
-        <item itemvalue="Python.upgrader (1)" />
         <item itemvalue="Python.upgrader" />
+        <item itemvalue="Python.upgrader (1)" />
+        <item itemvalue="Python.upgrader (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.national" />
       </list>
     </recent_temporary>
   </component>
@@ -388,19 +532,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572219071850</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Season up after int2 and before nations cup 2">
+      <created>1574461612830</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574461612830</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.94799566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.94799566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +599,8 @@
     <MESSAGE value="patch money fix" />
     <MESSAGE value="Season up after hspl2 m4" />
     <MESSAGE value="Season up after hspl2 m5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Season up after hspl2 m5" />
+    <MESSAGE value="Season up after int2 and before nations cup 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Season up after int2 and before nations cup 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,49 +614,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 1/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Fnatic/Wrena.plr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Major/main.py" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Ysonne.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/Pegeena.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Major 2/main.py" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/Major 3/main.py" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Red Five/Ysonne.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Red Five/Pegeena.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Red Five/Marlo.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Red Five/Kovittele.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Red Five/Januelandan.plr" />
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Uwujwi.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Rnarysonewel.plr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Nzoange.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Mahador.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Bsolana.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -572,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/AxykoN.plr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/EtalieN/DAnich.plr">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -586,34 +687,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/upgrader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/upgrader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 1/info/BRA.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/INT 2/Bears/Uwujwi.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/INT 2/Bears/Uwujwi.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/INT 2/EG/Ylvina.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/INT 2/main.py" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Bears/Uwujwi.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/Bears/Uwujwi.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/AsAdes/Yanno.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/Busters/Ellia.plr" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/national.py" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/BEL.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/INT 2/EG/Ylvina.plr">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/ENG.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/INT 2/main.py">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/DEN.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/CHI.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/FIN.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/FRA.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/GER.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/ITA.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/JAP.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/KAZ.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/POL.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/RUM.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Red Five/AxykoN.plr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/RUS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/USA.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/BRA.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/info/SWE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[1]/upgrader.py">
@@ -625,30 +791,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/Bears/Uwujwi.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/national.py">
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[2]/upgrader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1492">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state>
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/Bears/Uwujwi.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/AsAdes/Yanno.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/Busters/Ellia.plr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/National Cup/National Teams 2/national.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/bank/qual_and_create/DIV[3]/upgrader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
