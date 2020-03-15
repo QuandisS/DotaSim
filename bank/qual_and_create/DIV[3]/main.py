@@ -474,7 +474,7 @@ def do_game(teams):
         for player in team1_list:
             kda_stroke = ""
             kda_stroke += str(i) + ". " + '%-15s' % player.name + "  "
-            if player.kda >= 0:
+            if player.kda >= 1:
                 kda_stroke += Fore.GREEN + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
             else:
                 kda_stroke += Fore.RED + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
@@ -502,7 +502,7 @@ def do_game(teams):
         for player in team2_list:
             kda_stroke = ""
             kda_stroke += str(i) + ". " + '%-15s' % player.name + "  "
-            if player.kda >= 0:
+            if player.kda >= 1:
                 kda_stroke += Fore.GREEN + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
             else:
                 kda_stroke += Fore.RED + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
