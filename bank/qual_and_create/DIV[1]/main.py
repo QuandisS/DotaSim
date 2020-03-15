@@ -4,6 +4,7 @@ from forms import test
 import sys
 from PyQt5.QtCore import QThread
 from PyQt5.QtGui import QPixmap
+from colorama import init, Fore, Back, Style
 
 
 class MyWin(QtWidgets.QMainWindow):
@@ -203,6 +204,7 @@ class Player():
         self.position = ''
         self.name = ''
         self.gold = 0
+        self.kda = 0
 
 
 
@@ -271,7 +273,7 @@ def do_game(teams):
         #print(ev)
         #print(sec)
         sec += 1
-        time.sleep(0.1)
+        time.sleep(0.005)
         myapp.ui.Time.display((sec//60))
 
         if ev == 'farm':
@@ -435,31 +437,95 @@ def do_game(teams):
         myapp.ui.t2_kills.setText(str(t2_kills))
 
 
+    max_kills = 0
+    max_deaths = 0
+    max_assists = 0
 
+    try:
+        # KDA Show
+        team1_list = []
+        for player in team_1:
+            if team_1[player].deaths == 0:
+                team_1[player].deaths = 1
+            team_1[player].kda = round((team_1[player].kills + team_1[player].assists) / team_1[player].deaths, 2)
+            team1_list.append(team_1[player])
+            if team_1[player].deaths > max_deaths:
+                max_deaths = team_1[player].deaths
+            if team_1[player].kills > max_kills:
+                max_kills = team_1[player].kills
+            if team_1[player].assists > max_assists:
+                max_assists = team_1[player].assists
 
+        team2_list = []
+        for player in team_2:
+            if team_2[player].deaths == 0:
+                team_2[player].deaths = 1
+            team_2[player].kda = round((team_2[player].kills + team_2[player].assists) / team_2[player].deaths, 2)
+            team2_list.append(team_2[player])
+            if team_2[player].deaths > max_deaths:
+                max_deaths = team_2[player].deaths
+            if team_2[player].kills > max_kills:
+                max_kills = team_2[player].kills
+            if team_2[player].assists > max_assists:
+                max_assists = team_2[player].assists
 
+        team1_list.sort(key=lambda player: player.kda, reverse=True)
+        i = 1
+        for player in team1_list:
+            kda_stroke = ""
+            kda_stroke += str(i) + ". " + '%-15s' % player.name + "  "
+            if player.kda >= 0:
+                kda_stroke += Fore.GREEN + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
+            else:
+                kda_stroke += Fore.RED + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
 
+            if player.kills == max_kills:
+                kda_stroke += Fore.LIGHTYELLOW_EX + str(player.kills) + Style.RESET_ALL + "/"
+            else:
+                kda_stroke += str(player.kills) + "/"
 
-    for player in team_1:
-        print('---')
-        print(team_1[player].name)
-        print('kills:', team_1[player].kills)
-        print('assists:', team_1[player].assists)
-        print('deaths:', team_1[player].deaths)
+            if player.assists == max_assists:
+                kda_stroke += Fore.GREEN + str(player.assists) + Style.RESET_ALL + "/"
+            else:
+                kda_stroke += str(player.assists) + "/"
 
-    print('-----team2----')
+            if player.deaths == max_deaths:
+                kda_stroke += Fore.RED + str(player.deaths) + Style.RESET_ALL + ")"
+            else:
+                kda_stroke += str(player.deaths) + ")"
+            i += 1
+            print(kda_stroke)
 
-    for player in team_2:
-        print('---')
-        print(team_2[player].name)
-        print('kills:', team_2[player].kills)
-        print('assists:', team_2[player].assists)
-        print('deaths:', team_2[player].deaths)
+        print('-----team2----')
+        team2_list.sort(key=lambda player: player.kda, reverse=True)
+        i = 1
+        for player in team2_list:
+            kda_stroke = ""
+            kda_stroke += str(i) + ". " + '%-15s' % player.name + "  "
+            if player.kda >= 0:
+                kda_stroke += Fore.GREEN + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
+            else:
+                kda_stroke += Fore.RED + '%-5s' % str(player.kda) + Style.RESET_ALL + "  " + "("
 
+            if player.kills == max_kills:
+                kda_stroke += Fore.LIGHTYELLOW_EX + str(player.kills) + Style.RESET_ALL + "/"
+            else:
+                kda_stroke += str(player.kills) + "/"
 
+            if player.assists == max_assists:
+                kda_stroke += Fore.GREEN + str(player.assists) + Style.RESET_ALL + "/"
+            else:
+                kda_stroke += str(player.assists) + "/"
 
+            if player.deaths == max_deaths:
+                kda_stroke += Fore.RED + str(player.deaths) + Style.RESET_ALL + ")"
+            else:
+                kda_stroke += str(player.deaths) + ")"
+            i += 1
+            print(kda_stroke)
 
-
+    except Exception as e:
+        print(e.args[0])
 
 
 
