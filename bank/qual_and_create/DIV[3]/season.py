@@ -96,7 +96,7 @@ def main():
                 data = f.readlines()
                 f.close()
                 end_str = "\n"
-                end_str += 10*"=" + "KDA: " + str(round(float(data[6].split()[0])/float(data[6].split()[1]), 2)) + 10*"="
+                end_str += 10*"=" + "KDA: " + str(round(float(data[6].split()[0])/float(data[6].split()[1]), 2)) + " " + team + " " + 10*"="
                 data.append(end_str)
                 data[6] ="0 0" + "\n"
                 f = open(team + "\\" + player, 'w')
