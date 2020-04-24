@@ -26,7 +26,7 @@ class MyWin(QtWidgets.QMainWindow):
         print(b)
         ###
 
-        self.ui.version.setText('V. 0.1.4b12-wui')
+        self.ui.version.setText('V. 0.2')
 
         self.ui.registr.clicked.connect(self.set_first_team)
 
@@ -82,6 +82,8 @@ class MyWin(QtWidgets.QMainWindow):
         team_1_name = myapp.ui.team1_lineEdit.text()
         team_2_name = myapp.ui.team2_lineEdit.text()
 
+        global team_1_path
+        global team_2_path
         team_1_path = appPath + '\\' + team_1_name
         team_2_path = appPath + "\\" + team_2_name
 
@@ -494,6 +496,30 @@ def do_game(teams):
             else:
                 kda_stroke += str(player.deaths) + ")"
             i += 1
+
+            # Записываем средний кда
+            f = open(team_1_path + '\\' + player.name + '.plr')
+            data = f.readlines()
+            f.close()
+            match_num = 0
+            allkda = 0
+            try:
+                allkda = round(float(data[6].split(" ")[0]), 2)
+                match_num = int(data[6].split(" ")[1])
+            except Exception:
+                pass
+            match_num += 1
+            allkda += player.kda
+            try:
+                data[6] = str(round(allkda, 2)) + " " + str(match_num) + "\n"
+            except Exception:
+                data.append("\n" + str(round(allkda, 2)) + " " + str(match_num) + "\n")
+            f = open(team_1_path + '\\' + player.name + '.plr', 'w')
+            f.writelines(data)
+            f.close()
+
+            kda_stroke += "   Average KDA this season: " + Fore.LIGHTBLUE_EX + str(round(allkda / match_num, 2)) + Style.RESET_ALL
+
             print(kda_stroke)
 
         print('-----team2----')
@@ -522,6 +548,31 @@ def do_game(teams):
             else:
                 kda_stroke += str(player.deaths) + ")"
             i += 1
+
+
+            # Записываем средний кда
+            f = open(team_2_path + '\\' + player.name + '.plr')
+            data = f.readlines()
+            f.close()
+            match_num = 0
+            allkda = 0
+            try:
+                allkda = round(float(data[6].split(" ")[0]), 2)
+                match_num = int(data[6].split(" ")[1])
+            except Exception:
+                pass
+            match_num += 1
+            allkda += player.kda
+            try:
+                data[6] = str(round(allkda, 2)) + " " + str(match_num) + "\n"
+            except Exception:
+                data.append("\n" + str(round(allkda, 2)) + " " + str(match_num) + "\n")
+            f = open(team_2_path + '\\' + player.name + '.plr', 'w')
+            f.writelines(data)
+            f.close()
+
+            kda_stroke += "   Average KDA this season: " + Fore.LIGHTBLUE_EX + str(round(allkda / match_num , 2)) + Style.RESET_ALL
+
             print(kda_stroke)
 
     except Exception as e:
