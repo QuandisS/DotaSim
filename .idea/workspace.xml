@@ -62,7 +62,7 @@
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.team_creator">
+  <component name="RunManager" selected="Python.season (4)">
     <configuration name="season (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dotasim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.team_creator" />
         <item itemvalue="Python.season (4)" />
         <item itemvalue="Python.season" />
         <item itemvalue="Python.season (3)" />
+        <item itemvalue="Python.team_creator" />
         <item itemvalue="Python.season (2)" />
       </list>
     </recent_temporary>
