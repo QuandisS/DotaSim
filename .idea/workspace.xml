@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4a9f2586-5474-4831-ae52-af6a61b02dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/team_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/team_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Bsolana.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Bsolana.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/GIACHA.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Titan/GIACHA.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Titan/Re-Matter.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/Re-Matter.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Titan/TARANQA!.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Gambit/TARANQA!.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/Fany.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/Fany.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/Padmon.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/Padmon.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/BE/WnyAnDOr.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/AsAdes/WnyAnDOr.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/NRG/Wighnavange.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Bears/Wighnavange.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/Optic/onDILL.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/Titan/onDILL.plr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/qual_and_create/DIV[2]/ViCi/JuliesiS.plr" beforeDir="false" afterPath="$PROJECT_DIR$/bank/qual_and_create/DIV[1]/WindAndRain/JuliesiS.plr" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[3]" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\INT 3" />
-      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\Major 5" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]\Titan" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[1]\Gambit" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]\BE" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]\AsAdes" />
+      <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\DIV[2]\ViCi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anton\Documents\GitHub\DotaSim\bank\qual_and_create\INT 3" />
@@ -411,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596323341573</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="season up after HSPL 4 Teams Adding">
+      <created>1596328372768</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1596328372768</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -424,7 +440,6 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nations cup roster" />
     <MESSAGE value="Season up + team creator" />
     <MESSAGE value="Season up (div3)" />
     <MESSAGE value="new season patch" />
@@ -449,29 +464,30 @@
     <MESSAGE value="season up before INT 3" />
     <MESSAGE value="season up after INT 3" />
     <MESSAGE value="season up after HSPL 3 End" />
-    <option name="LAST_COMMIT_MESSAGE" value="season up after HSPL 3 End" />
+    <MESSAGE value="season up after HSPL 4 Teams Adding" />
+    <option name="LAST_COMMIT_MESSAGE" value="season up after HSPL 4 Teams Adding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1347" y="248" key="CommitChangelistDialog2" timestamp="1596323340023">
+    <state x="1347" y="248" key="CommitChangelistDialog2" timestamp="1596328371673">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1347" y="248" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1596323340023" />
-    <state width="1698" height="518" key="GridCell.Tab.0.bottom" timestamp="1596327950534">
+    <state x="1347" y="248" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1596328371673" />
+    <state width="1698" height="518" key="GridCell.Tab.0.bottom" timestamp="1596328344887">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1698" height="518" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1596327950534" />
-    <state width="1698" height="518" key="GridCell.Tab.0.center" timestamp="1596327950534">
+    <state width="1698" height="518" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1596328344887" />
+    <state width="1698" height="518" key="GridCell.Tab.0.center" timestamp="1596328344887">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1698" height="518" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1596327950534" />
-    <state width="1698" height="518" key="GridCell.Tab.0.left" timestamp="1596327950534">
+    <state width="1698" height="518" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1596328344887" />
+    <state width="1698" height="518" key="GridCell.Tab.0.left" timestamp="1596328344887">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1698" height="518" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1596327950534" />
-    <state width="1698" height="518" key="GridCell.Tab.0.right" timestamp="1596327950534">
+    <state width="1698" height="518" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1596328344887" />
+    <state width="1698" height="518" key="GridCell.Tab.0.right" timestamp="1596328344887">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1698" height="518" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1596327950534" />
+    <state width="1698" height="518" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1596328344887" />
     <state width="3419" height="638" key="GridCell.Tab.1.bottom" timestamp="1596310357796">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -488,10 +504,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="3419" height="638" key="GridCell.Tab.1.right/0.0.3440.1400@0.0.3440.1400" timestamp="1596310357796" />
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1596323396552">
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1596328481168">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1596323396552" />
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1596328481168" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
