@@ -15,7 +15,7 @@ def write_player(team_name : str, nick : str, position: str, country : str):
     f.write('Farm: ' + str(farm) + '\n')
     f.write('Fight: ' + str(fight) + '\n')
     f.write('Team_Work: ' + str(team_work) + '\n')
-    f.write('Position: ' + position)
+    f.write('Position: ' + position + '\n')
     f.write('0 0')
     f.close()
 
